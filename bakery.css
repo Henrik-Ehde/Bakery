@@ -1,0 +1,46 @@
+body
+{
+    text-align: center;
+}
+
+h3
+{
+    font-size: 40px;
+    text-align: center;
+}
+
+.Gallery
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: normal;
+    justify-content: flex-start;
+}
+
+.Item
+{
+    display: flex;
+	flex-direction: column;
+    flex-grow: 1;
+    padding: 0px;
+    /* max-width: 400px; */
+    flex-basis: 200px;
+    max-width: 300px;
+
+    border: solid 1px;
+    text-align: center;
+
+    img
+    {
+        /* max-width: 400px; */
+        width: 100%;
+        /* height: fit-content; */
+    }
+}
+
+.Product-Info
+{
+    margin-top: auto;
+    padding-bottom: 15px;
+}
