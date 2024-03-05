@@ -8,7 +8,7 @@ body
     text-align: center;
     font-family: "Dancing Script", cursive;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 26px;
 }
 
 nav{
@@ -50,14 +50,14 @@ footer
 {
     font-family: "Madimi One";
     font-weight: 400;
-    font-size: 26;
+    font-size: 23px;
 
 }
 
 img.main-logo
 {
     margin-bottom: -60px;
-    width: 900px;
+    /* width: 900px; */
 }
 
 .Item
@@ -66,8 +66,8 @@ img.main-logo
 	flex-direction: column;
     flex-grow: 1;
     padding:4px;
-    flex-basis: 300px;
-    max-width: 400px;
+    flex-basis: 250px;
+    max-width: 350px;
 
     border: solid 1px;
     border-radius: 5px;
